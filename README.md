@@ -1,25 +1,37 @@
-## 🤖 Sales Simulation Bot (next_sale_bot.ipynb)
+# RFM Churn Risk Analyzer
 
-- Simulates **future sales events** using historical RFM purchasing patterns  
-- Generates realistic invoices, products, prices, and quantities  
-- Automatically updates customer RFM metrics after each transaction  
-- Recalculates churn risk and importance scores in real time  
-- Keeps Tableau dashboards continuously **live and analytics-ready**  
-
-This bot powers the RFM Churn Risk Analyzer by feeding it realistic, evolving transactional data.
-
-# RFM Churn Risk Analyzer (RFM_Churn_Risk_Analyzer.twb)
-
-**RFM Churn Risk Analyzer** leverages RFM (Recency, Frequency, Monetary) analysis to identify clients who are at risk of being lost by the business. This project comprises **three interconnected Tableau dashboards**, enabling business owners to proactively monitor at-risk clients, make data-driven retention decisions, and strengthen long-term customer relationships.
-
+The **RFM Churn Risk Analyzer** uses RFM (Recency, Frequency, Monetary) analysis to identify customers at risk of churn.  
+The project consists of **three interconnected Tableau dashboards** that allow business owners to monitor customer health, prioritize retention efforts, and make data-driven decisions to strengthen long-term customer relationships.
 
 ---
 
-## Tools & Technologies
-- **Tableau Desktop & Tableau Server**  
-- **Data source:** PostgreSQL
-- **Analytics methods:** RFM Analysis (Recency, Frequency, Monetary)  
-- **Optional:** SQL for data preparation  
+## 🤖 Sales Simulation Bot (`next_sale_bot.ipynb`)
+
+- Simulates **future sales events** based on historical RFM purchasing behavior  
+- Generates realistic invoices, products, prices, and quantities  
+- Automatically updates customer RFM metrics after each transaction  
+- Recalculates churn risk and customer importance scores in real time  
+- Keeps Tableau dashboards continuously **live and analytics-ready**
+
+This bot acts as the data engine for the RFM Churn Risk Analyzer by continuously feeding evolving transactional data into the system.
+
+---
+
+## 📊 Tableau Dashboards (`RFM_Churn_Risk_Analyzer.twb`)
+
+- Three interconnected dashboards focused on:
+  - Customer segmentation
+  - Churn risk identification
+  - Retention prioritization
+
+---
+
+## 🛠 Tools & Technologies
+
+- **Tableau Desktop & Tableau Server**
+- **Database:** PostgreSQL
+- **Analytics:** RFM Analysis (Recency, Frequency, Monetary)
+- **Data preparation:** SQL
 
 ---
 
