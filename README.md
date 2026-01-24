@@ -3,6 +3,12 @@
 The **RFM Churn Risk Analyzer** uses RFM (Recency, Frequency, Monetary) analysis to identify customers at risk of churn.  
 The project consists of **three interconnected Tableau dashboards** that allow business owners to monitor customer health, prioritize retention efforts, and make data-driven decisions to strengthen long-term customer relationships.
 
+## 📂 Dataset
+
+- **Source:** UCI Machine Learning Repository  
+- **Dataset:** Online Retail II  
+- **URL:** https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
 ---
 
 ## 🤖 Sales Simulation Bot (`next_sale_bot.ipynb`)
