@@ -1,6 +1,17 @@
-# RFM Churn Risk Analyzer
+## 🤖 Sales Simulation Bot (next_sale_bot.ipynb)
+
+- Simulates **future sales events** using historical RFM purchasing patterns  
+- Generates realistic invoices, products, prices, and quantities  
+- Automatically updates customer RFM metrics after each transaction  
+- Recalculates churn risk and importance scores in real time  
+- Keeps Tableau dashboards continuously **live and analytics-ready**  
+
+This bot powers the RFM Churn Risk Analyzer by feeding it realistic, evolving transactional data.
+
+# RFM Churn Risk Analyzer (RFM_Churn_Risk_Analyzer.twb)
 
 **RFM Churn Risk Analyzer** leverages RFM (Recency, Frequency, Monetary) analysis to identify clients who are at risk of being lost by the business. This project comprises **three interconnected Tableau dashboards**, enabling business owners to proactively monitor at-risk clients, make data-driven retention decisions, and strengthen long-term customer relationships.
+
 
 ---
 
